@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0a192f; /* Azul marino */
+  color: #ccd6f6; /* Texto claro */
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Fuente moderna */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #112240; /* Fondo oscuro para la barra de navegación */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand,
+.nav-link {
+  color: #ccd6f6 !important; /* Texto claro */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link:hover {
+  color: #64ffda !important; /* Verde azulado para hover */
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background-color: #112240; /* Fondo oscuro para tarjetas */
+  color: #ccd6f6; /* Texto claro */
+  border: none;
+  transition: transform 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+  transform: scale(1.05); /* Efecto de zoom en hover */
+}
+
+.btn-primary {
+  background-color: #64ffda; /* Botones primarios en verde azulado */
+  border-color: #64ffda;
+  color: #0a192f; /* Texto oscuro */
+}
+
+.btn-primary:hover {
+  background-color: #52e3c2; /* Hover del botón */
+  border-color: #52e3c2;
+}
+
+hr {
+  border-top: 1px solid #64ffda; /* Línea divisoria en verde azulado */
+}
+
+h1,
+h2,
+h3 {
+  color: #64ffda; /* Verde azulado para encabezados */
+}
+
+a {
+  color: #ff9f1c; /* Naranja para enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
